@@ -1,0 +1,22 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Tênis Nike Chile Jordan",
+        "price": 780.1,
+        "src":"/jordanblack.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Nike Air Jordan black/red",
+        "price": 790.2,
+        "src":"/jordan2.png"
+      },
+      {
+        "id": 3,
+        "name": "Tênis Nike Air Jordan Retro High white/red",
+        "price": 800.1,
+        "src":"/jordan3.png"
+      }
+    ]
+  }

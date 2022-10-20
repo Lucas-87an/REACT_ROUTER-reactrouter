@@ -6,7 +6,7 @@ const Product = () => {
   // rota dinâmica
   const {id}=useParams();
   // carregamento de dados individuais
-  const url ='http://localhost:3000/products/' + id
+  const url ='https://shopstorage.vercel.app/products/' + id
   const {data:produto,loading, error}=useFecth(url)
   return (
     <>

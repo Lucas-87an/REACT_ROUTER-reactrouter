@@ -3,7 +3,7 @@ import { useFecth } from "../hooks/useFetch"
 
 const Search = () => {
   const [searchParams]=useSearchParams()
-  const url ='http://localhost:3000/products?'+ searchParams
+  const url ='https://shopstorage.vercel.app/products?'+ searchParams
   const {data: items}=useFecth(url)
   return (
     <div>

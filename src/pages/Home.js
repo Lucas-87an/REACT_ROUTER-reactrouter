@@ -4,7 +4,7 @@ import './Home.css'
 
 const Home = () => {
   // carregamento de dados
-  const url ='http://localhost:3000/products'
+  const url ='https://shopstorage.vercel.app/products'
   const {data: items, loading, error}=useFecth(url)
   return (
     <div>
